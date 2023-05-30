@@ -1,0 +1,228 @@
+.properties {
+  padding: 0px 20px;
+  background-color: #f5f4f7;
+  border-radius: 0px 25px 25px 0px;
+  height: 90vh;
+  overflow: scroll;
+}
+.prop-header {
+  display: flex;
+  padding: 30px 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  background-color: #f5f4f7;
+  margin: 0px;
+  z-index: 2;
+}
+.heading {
+  font-size: 22px;
+  font-weight: 300;
+  color: rgb(119, 116, 116);
+  display: flex;
+  align-items: center;
+}
+.nxt-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: solid;
+  background-color: #384e8f;
+  border-width: 1px;
+  border-color: #384e8f;
+  margin-right: 35px;
+  cursor: pointer;
+  color: white;
+}
+.search {
+  background-color: #f5f4f7;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  padding: 5px 10px;
+}
+input {
+  background-color: transparent;
+  border: none;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.prop-content1 {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(203, 201, 201);
+  color: rgb(25, 25, 57);
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.prop-content {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.prop-prop {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.receiver {
+  width: 20%;
+  font-size: small;
+  display: flex;
+  align-items: center;
+}
+.type {
+  width: 12.5%;
+  font-size: small;
+}
+.status {
+  width: 12.5%;
+  font-size: small;
+}
+.date {
+  width: 15%;
+  font-size: small;
+}
+.amount {
+  width: 10%;
+  font-size: small;
+}
+.invite {
+  width: 10%;
+  font-size: small;
+}
+.enable {
+  width: 20%;
+  font-size: small;
+}
+.prop-prop-con {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.prop-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.pen {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: green;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+.receiver1 {
+  width: 20%;
+  font-size: small;
+  display: flex;
+  align-items: center;
+}
+.type1 {
+  width: 12.5%;
+  font-size: small;
+}
+.status1 {
+  width: 12.5%;
+  font-size: small;
+}
+.date1 {
+  width: 15%;
+  font-size: small;
+}
+.amount1 {
+  width: 10%;
+  font-size: small;
+}
+.invite1 {
+  width: 10%;
+  font-size: small;
+}
+.enable1 {
+  width: 18%;
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+}
+.details-btn {
+  margin-right: 100px;
+  border: solid;
+  border-width: 1px;
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: grey;
+}
+//////
+
+/* toggle in label designing */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+  background-color: rgb(206, 199, 199);
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+/* After slide changes */
+.toggle:after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(255, 251, 251);
+  top: 1px;
+  left: 1px;
+  transition: all 0.5s;
+}
+
+/* Toggle text */
+
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+  left: 15px;
+}
+
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+  background-color: rgb(24, 139, 227);
+}
+
+/* Checkbox vanished */
+.checkbox {
+  display: none;
+}
+.btn-properties:disabled,
+.btn-properties[disabled] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: solid;
+  background-color: grey;
+  border-width: 1px;
+  border-color: rgb(121, 119, 119);
+  margin-right: 35px;
+  color: rgb(119, 116, 116);
+  cursor: not-allowed;
+}
+.btn-properties {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: solid;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: rgb(121, 119, 119);
+  margin-right: 35px;
+  cursor: pointer;
+  color: rgb(119, 116, 116);
+}
